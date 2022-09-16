@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  background-image: url(Accets/bg.jpg);
+  background-position: top center;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: #121214;
+}
+
+body * {
+  font-family: 'Inter', sans-serif;
+  line-height: 160%;
+  color: white;
+}
+
+main {
+  margin-top: 32px;
+  max-width: 580px;
+  width: 90%;
+  margin: auto;
+
+  display: grid;
+  gap: 24px;
+}
+
+section {
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+
+  padding-top: 4px;
+  border-radius: 14px;
+}
+
+section div {
+  background-color: #2a2634;
+
+  padding: 24px 32px 32px 32px;
+
+  border-radius: 8px;
+}
+
+section h2 {
+  letter-spacing: -0.47px;
+}
+
+section p {
+  /* letter-spacing: -0.18px; */
+  color: #a1a1aa;
+}
+
+section ul {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.games-list img {
+  height: 120px;
+  border-radius: 8px;
+}
+
+.channel-list img {
+  width: 70px;
+  border-radius: 50%;
+}
