@@ -11,6 +11,8 @@ Bom, diante dos Conceitos aprendidos eu consegui fazer uma pequena implementaÃ§Ã
 
 ## E esse foi o resultado:
 
+[Tenha acessso ao projeto clicando aqui](https://micaiasdev.github.io/nlw_esports/)
+
 ![preview](micaiasdev.github.io_nlw_esports_%20(1).png)
 
 ## Tecnologies
@@ -19,7 +21,7 @@ Bom, diante dos Conceitos aprendidos eu consegui fazer uma pequena implementaÃ§Ã
 - CSS
 - Git e Github
 
-[Tenha acessso ao projeto clicando aqui](https://micaiasdev.github.io/nlw_esports/)
+
 
 
 > Contatos
