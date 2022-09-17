@@ -4,6 +4,8 @@
 
 Um projeto com foco em gamers, porém traz uma abordagem muito prática do uso de tecnologias Front-End.
 
+![preview](micaiasdev.github.io_nlw_esports_%20(1).png)
+
 ## Tecnologies
 
 - HTML
