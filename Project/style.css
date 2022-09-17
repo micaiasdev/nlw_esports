@@ -1,3 +1,10 @@
+
+
+/* 
+Negócio dos códigos e das tags
+editor.linkedEditing 
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -18,11 +25,40 @@ body * {
   color: white;
 }
 
+header {
+  margin-top: 32px;
+  text-align: center;
+}
+
+header div {
+  width: 120px;
+  display: flex;
+
+  padding: 4px;
+  border-radius: 50%;
+  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
+
+
+  margin-inline: auto;
+
+  transition: transform .3s;
+
+}
+
+header div:hover {
+  transform: scale(1.1);
+}
+
+header div img { 
+  width: 100%;
+  border-radius: 50%;
+}
+
 main {
   margin-top: 32px;
   max-width: 580px;
   width: 90%;
-  margin: auto;
+  margin: 32px auto;
 
   display: grid;
   gap: 24px;
@@ -64,12 +100,24 @@ section ul {
   gap: 16px;
 }
 
+section ul:hover {
+  gap: 1.3em;
+}
+
 .games-list img {
   height: 120px;
   border-radius: 8px;
+
+  transition: transform .3s;
+}
+
+.games-list img:hover {
+  transform: scale(1.3);
 }
 
 .channel-list img {
   width: 70px;
   border-radius: 50%;
+
+  border: solid 1px #443E54;
 }
