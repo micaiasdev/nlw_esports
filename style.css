@@ -12,8 +12,9 @@ editor.linkedEditing
   list-style: none;
 }
 body {
- background-image: url(Accets/bg.jpg);
- background-position: top center;
+  background-image: url(Accets/bg.jpg);
+
+  background-position: top center;
 
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -38,8 +39,9 @@ header div {
 
   padding: 4px;
   border-radius: 50%;
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
+  background-image: linear-gradient(to left, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
 
+  background-size: 300%;
 
   margin-inline: auto;
 
@@ -65,7 +67,19 @@ main {
   gap: 24px;
 }
 
+section {
+  
+  background-image: linear-gradient(to left,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  background-size: 300%;  
+  padding-top: 4px;
+  border-radius: 14px;
 
+
+}
 
 section div {
   background-color: #2a2634;
@@ -112,10 +126,11 @@ section ul li:hover {
 }
 
 
-/* animation */
+/* animations */
 
 header div {
   animation: fromTop .7s .2s backwards;
+  animation: animated-gradient 2s infinite  alternate;
 }
 @keyframes fromTop{
   from{
@@ -131,6 +146,7 @@ header div {
 
 main section {
   animation: fromBottom .7s backwards;
+  animation: animated-gradient 2s infinite alternate ;
 }
 
 main section:nth-child(1){
@@ -154,6 +170,15 @@ main section:nth-child(3){
   top{
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@keyframes animated-gradient {
+  from {
+    background-position-x:0%;
+  }
+  to {
+    background-position-x: 100%;
   }
 }
 
