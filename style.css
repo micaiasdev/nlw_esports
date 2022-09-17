@@ -18,8 +18,6 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-color: #121214;
-
-  animation: animated-gradient 5s infinite alternate;
 }
 
 body * {
@@ -67,19 +65,7 @@ main {
   gap: 24px;
 }
 
-section {
-  background-image: linear-gradient(to left,
-    #9572fc 0%,
-    #43e7ad 50.52%,
-    #e2d45c 100%
-  );
-  
-  background-size: 100%;
 
-  padding-top: 4px;
-  border-radius: 14px;
-
-}
 
 section div {
   background-color: #2a2634;
